@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Playwrite+CU:wght@100..400&display=swap');
 *{margin:0; padding:0; box-sizing: border-box;}
 img{width: 100%;}
 body{
     background-color: rgb(115,91,115);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Playwrite CU", cursive;
 }
 main{
     height: 100vh;
@@ -10,7 +11,7 @@ main{
     justify-content: center;align-items: center;
 }
 .card{
-    width:300px;
+    width:400px;
     padding-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px #000;
@@ -51,15 +52,15 @@ ul{
 }
 a{
     display: inline-block;
-    padding: .5rem .8rem;
-    background-color: rgb(90, 91, 87);
-    border-radius: 5px;
+    padding: .5rem .5rem;
+    background-color: rgb(96, 17, 91);
+    border-radius: 15px;
     text-decoration: none;
     color:#fff;
     transition: scale .1s;
 }
 a:hover{
-    background-color: rgb(14, 66, 96);
+    background-color: rgb(79, 17, 96);
     color: #fff;
 }
 a:active{

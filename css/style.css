@@ -1,7 +1,7 @@
 *{margin:0; padding:0; box-sizing: border-box;}
 img{width: 100%;}
 body{
-    background-color: rgb(16, 75, 157);
+    background-color: rgb(115,91,115);
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
@@ -14,7 +14,7 @@ main{
     padding-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px #000;
-    background-color: rgb(191, 211, 218);
+    background-color: rgb(241,220,255);
 }
 .card>img{
     border-radius: 5px 5px 0 0;

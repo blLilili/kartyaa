@@ -66,3 +66,7 @@ a:hover{
 a:active{
     scale: .96;
 }
+
+a{
+    background-color: rgb(71, 46, 101);
+}

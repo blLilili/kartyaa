@@ -68,5 +68,8 @@ a:active{
 }
 
 a{
-    background-color: rgb(71, 46, 101);
+    background-color: rgb(146, 97, 156);
+}
+p, h3{
+    color: #fff;
 }

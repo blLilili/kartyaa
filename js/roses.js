@@ -23,12 +23,17 @@ A JS gyengén típusos nyelv: ==, 3 + "4" -> '34', 3*"4" -> 12
 */
 //HTML elemek elérése
 const button = document.querySelector("ul li:last-child a");
-button.textContent = "new text";
+button.textContent = "࣪ ִֶָ☾. added ࣪ ִֶָ☾.";
 button.style.backgroundColor = "rgb(97, 130, 147)";
-button.style.display = "none";
 console.log(button);
 
 document.querySelector(".card").style.backgroundColor = "rgb(71, 46, 101)";
 
 const floatDiv = document.querySelector(".float-div");
 floatDiv.appendChild(p);
+
+/*
+array (tömb) ~ python lista (dinamikus, heterogén)
+const t = []; const t = new Array();
+Elemek elérése: t[0], t.at[-1]
+*/

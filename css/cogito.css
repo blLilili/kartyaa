@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+*{box-sizing: border-box; margin: 0; padding: 0;}
+img{
+    width: 100%;
+}
+body{
+    font-family: "Handjet", sans-serif;
+    background-image: url("../img/the\ place.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 1.5rem;
+}
+.card, .card2{
+    border: 5px solid rgb(28, 2, 2);
+    padding: 50px;
+    width: 450px;
+    background-color: rgb(49, 7, 2);
+}
+p{
+    color: rgb(10, 3, 2);
+}
+.hate{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    display: flex;
+}
+.hate p{
+    color: rgb(40, 19, 3);
+}
+.butt{
+    background-color: rgb(52, 0, 0);
+}
+a{
+    color: rgb(10, 3, 2);
+    text-decoration: none;
+    padding: 1rem;
+}
